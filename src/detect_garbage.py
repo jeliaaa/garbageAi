@@ -48,7 +48,7 @@ if __name__ == "__main__":
         
         if prediction == 1:  # If garbage is detected
             print("Garbage detected! Playing alarm...")
-            playsound("C:/Users/Aleksandre Jelia/Desktop/CODE/netDetection/sounds/alarm.mp3")  # Update with your MP3 file path
+            playsound("C:/Users/Aleksandre Jelia/Desktop/CODE/garbage_detector/sounds/alarm.mp3")  # Update with your MP3 file path
         else:
             print("The lake is clean.")
     else:
